@@ -49,6 +49,8 @@ public class FilterRecords {
      * Problem 1: Given the employee table, write a query in the problem1.sql file to retrieve all the records
      * from the employee table that have the last_name 'Smith'
      *
+     * NOTE: Please write the SQL statement on a single line (do not use multi-line formatting).
+     *
      *   employee table
      *   |  id  |   first_name   |   last_name   |  salary  |
      *   --------------------------------------------------
@@ -86,6 +88,8 @@ public class FilterRecords {
     /**
      * Problem 2: Given the employee table, write a query in the problem2.sql file to retrieve all the records
      * from the employee table that have a salary greater than $75000
+     *
+     * NOTE: Please write the SQL statement on a single line (do not use multi-line formatting).
      *
      *   employee table
      *   |  id  |   first_name   |   last_name   |  salary  |
