@@ -39,15 +39,21 @@ import java.util.List;
  * In addition to filtering on equality like above, we can filter on inequality with the <, >, <=, >=, and != operators.
  * We can even filter on strings that match partially, using the LIKE keyword and the '%' wildcard. Here are a few examples:
  * This will return all records where the first name starts with 'S'
- *      SELECT * FROM employees WHERE first_name LIKE 'S%'
- * This will return all the records with a salary value of less than $100,000.00
- *      SELECT * FROM employees WHERE salary < 100000.00
+ *
+ *      SELECT * FROM employee WHERE first_name LIKE 'S%'
+ *
+ *  This will return all the records with a salary value of less than $100,000.00
+ *
+ *      SELECT * FROM employee WHERE salary < 100000.00
+ *
  */
 public class FilterRecords {
 
     /**
      * Problem 1: Given the employee table, write a query in the problem1.sql file to retrieve all the records
      * from the employee table that have the last_name 'Smith'
+     *
+     * NOTE: Please write the SQL statement on a single line (do not use multi-line formatting).
      *
      *   employee table
      *   |  id  |   first_name   |   last_name   |  salary  |
@@ -86,6 +92,8 @@ public class FilterRecords {
     /**
      * Problem 2: Given the employee table, write a query in the problem2.sql file to retrieve all the records
      * from the employee table that have a salary greater than $75000
+     *
+     * NOTE: Please write the SQL statement on a single line (do not use multi-line formatting).
      *
      *   employee table
      *   |  id  |   first_name   |   last_name   |  salary  |
