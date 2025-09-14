@@ -63,6 +63,8 @@ public class FilterRecords {
      *   |3     |'Steve'         |'Jones'        |99890.99  |
      *   |4     |'Brandon'       |'Smith'        |120000.00 |
      *   |5     |'Adam'          |'Jones'        |55050.50  |
+     *
+     * NOTE: Please write the SQL statement on a single line (do not use multi-line formatting).
      */
 
 
@@ -103,6 +105,8 @@ public class FilterRecords {
      *   |3     |'Steve'         |'Jones'        |99890.99  |
      *   |4     |'Brandon'       |'Smith'        |120000.00 |
      *   |5     |'Adam'          |'Jones'        |55050.50  |
+     *
+     * NOTE: Please write the SQL statement on a single line (do not use multi-line formatting).
      */
     public List<User> problem2(){
 
